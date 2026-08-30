@@ -186,4 +186,25 @@ Ana presses `y` — *once*, deliberately, because refunds should never become a 
 
 ---
 
+## 📦 Source repository
+
+This page is one part of an open guide pack. The whole serial — every diagram source, and a **runnable MCP server** you can point Claude Code at — lives in one repository:
+
+### → https://github.com/geekchow/mcp-explain
+
+| | |
+|---|---|
+| This page's source | [`mcp-guide/05-deep-dives/01-host-claude-code.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/05-deep-dives/01-host-claude-code.md) |
+| Runnable example server | [`mcp-guide/examples/orders-db-server`](https://github.com/geekchow/mcp-explain/tree/main/mcp-guide/examples/orders-db-server) |
+| Start of the serial | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+
+Clone it and follow along:
+
+```bash
+git clone https://github.com/geekchow/mcp-explain.git
+cd mcp-explain/mcp-guide/examples/orders-db-server && npm install && node index.js
+```
+
+Corrections are welcome — open an issue if a protocol detail has drifted with a newer MCP revision.
+
 → Next: [02-mcp-client.md](02-mcp-client.md) · ↑ back to [the concept map](../03-concept-map.md) · ⚓ [the example](../04-running-example.md)

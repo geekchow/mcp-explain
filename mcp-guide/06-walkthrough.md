@@ -189,4 +189,27 @@ In this walkthrough the payments team shipped **one** server. Ana's Claude Code 
 
 That is the entire value proposition, and you have now seen every component that delivers it.
 
+---
+
+## 📦 Source repository
+
+This page is one part of an open guide pack. The whole serial — every diagram source, and a **runnable MCP server** you can point Claude Code at — lives in one repository:
+
+### → https://github.com/geekchow/mcp-explain
+
+| | |
+|---|---|
+| This page's source | [`mcp-guide/06-walkthrough.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/06-walkthrough.md) |
+| Runnable example server | [`mcp-guide/examples/orders-db-server`](https://github.com/geekchow/mcp-explain/tree/main/mcp-guide/examples/orders-db-server) |
+| Start of the serial | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+
+Clone it and follow along:
+
+```bash
+git clone https://github.com/geekchow/mcp-explain.git
+cd mcp-explain/mcp-guide/examples/orders-db-server && npm install && node index.js
+```
+
+Corrections are welcome — open an issue if a protocol detail has drifted with a newer MCP revision.
+
 → Next: [07-next-steps.md](07-next-steps.md) · ↑ back to [00-overview.md](00-overview.md)

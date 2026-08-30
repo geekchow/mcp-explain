@@ -95,4 +95,27 @@ Read 01→06 in order the first time. Afterwards, each deep dive stands alone �
 
 MCP is versioned by date string. This guide describes the protocol as of revision **`2025-06-18`**, which is what current Claude Code and the official SDKs negotiate by default; where a behavior arrived in a specific revision (Streamable HTTP in `2025-03-26`, elicitation and structured tool output in `2025-06-18`) the text says so. Later revisions exist and add features, but every concept in this pack is stable across them. When a detail matters for your build, check `modelcontextprotocol.io` for the revision your SDK negotiates — and check the `protocolVersion` your own handshake actually returns (see [the client dive](05-deep-dives/02-mcp-client.md)).
 
+---
+
+## 📦 Source repository
+
+This page is one part of an open guide pack. The whole serial — every diagram source, and a **runnable MCP server** you can point Claude Code at — lives in one repository:
+
+### → https://github.com/geekchow/mcp-explain
+
+| | |
+|---|---|
+| This page's source | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+| Runnable example server | [`mcp-guide/examples/orders-db-server`](https://github.com/geekchow/mcp-explain/tree/main/mcp-guide/examples/orders-db-server) |
+| Start of the serial | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+
+Clone it and follow along:
+
+```bash
+git clone https://github.com/geekchow/mcp-explain.git
+cd mcp-explain/mcp-guide/examples/orders-db-server && npm install && node index.js
+```
+
+Corrections are welcome — open an issue if a protocol detail has drifted with a newer MCP revision.
+
 → Next: [01-why.md](01-why.md)

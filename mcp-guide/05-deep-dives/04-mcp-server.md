@@ -286,4 +286,25 @@ Note the two independent gates on the same call: the Host's approval prompt ([di
 
 ---
 
+## 📦 Source repository
+
+This page is one part of an open guide pack. The whole serial — every diagram source, and a **runnable MCP server** you can point Claude Code at — lives in one repository:
+
+### → https://github.com/geekchow/mcp-explain
+
+| | |
+|---|---|
+| This page's source | [`mcp-guide/05-deep-dives/04-mcp-server.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/05-deep-dives/04-mcp-server.md) |
+| Runnable example server | [`mcp-guide/examples/orders-db-server`](https://github.com/geekchow/mcp-explain/tree/main/mcp-guide/examples/orders-db-server) |
+| Start of the serial | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+
+Clone it and follow along:
+
+```bash
+git clone https://github.com/geekchow/mcp-explain.git
+cd mcp-explain/mcp-guide/examples/orders-db-server && npm install && node index.js
+```
+
+Corrections are welcome — open an issue if a protocol detail has drifted with a newer MCP revision.
+
 → Next: [05-auth-and-trust.md](05-auth-and-trust.md) · ↑ back to [the concept map](../03-concept-map.md) · ⚓ [the example](../04-running-example.md)

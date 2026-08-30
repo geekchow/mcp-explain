@@ -83,4 +83,27 @@ Use MCP when: a capability must be reachable from **more than one** AI host; or 
 
 Do not reach for MCP when: the logic is a private helper inside one application (just write a function); or you need high-throughput data movement (use your data pipeline); or the "tool" is really a prompt-shaped workflow inside one host (a Claude Code skill or subagent is lighter).
 
+---
+
+## 📦 Source repository
+
+This page is one part of an open guide pack. The whole serial — every diagram source, and a **runnable MCP server** you can point Claude Code at — lives in one repository:
+
+### → https://github.com/geekchow/mcp-explain
+
+| | |
+|---|---|
+| This page's source | [`mcp-guide/02-what.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/02-what.md) |
+| Runnable example server | [`mcp-guide/examples/orders-db-server`](https://github.com/geekchow/mcp-explain/tree/main/mcp-guide/examples/orders-db-server) |
+| Start of the serial | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+
+Clone it and follow along:
+
+```bash
+git clone https://github.com/geekchow/mcp-explain.git
+cd mcp-explain/mcp-guide/examples/orders-db-server && npm install && node index.js
+```
+
+Corrections are welcome — open an issue if a protocol detail has drifted with a newer MCP revision.
+
 → Next: [03-concept-map.md](03-concept-map.md) · ↑ back to [00-overview.md](00-overview.md)

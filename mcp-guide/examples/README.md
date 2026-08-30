@@ -119,4 +119,27 @@ A browser UI that speaks the protocol for you: list and call tools, read resourc
 4. **Break the transport on purpose** with a stray `console.log`, read the failure, then fix it. You will only make that mistake once.
 5. **Add elicitation:** a `cancel_order` tool that confirms with the user before acting — the `payments` pattern from [dive 04 §4](../05-deep-dives/04-mcp-server.md), on a server you control.
 
+---
+
+## 📦 Source repository
+
+This page is one part of an open guide pack. The whole serial — every diagram source, and a **runnable MCP server** you can point Claude Code at — lives in one repository:
+
+### → https://github.com/geekchow/mcp-explain
+
+| | |
+|---|---|
+| This page's source | [`mcp-guide/examples/README.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/examples/README.md) |
+| Runnable example server | [`mcp-guide/examples/orders-db-server`](https://github.com/geekchow/mcp-explain/tree/main/mcp-guide/examples/orders-db-server) |
+| Start of the serial | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+
+Clone it and follow along:
+
+```bash
+git clone https://github.com/geekchow/mcp-explain.git
+cd mcp-explain/mcp-guide/examples/orders-db-server && npm install && node index.js
+```
+
+Corrections are welcome — open an issue if a protocol detail has drifted with a newer MCP revision.
+
 ↑ back to [the running example](../04-running-example.md) · [the guide index](../00-overview.md)

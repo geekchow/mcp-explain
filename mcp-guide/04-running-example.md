@@ -141,4 +141,27 @@ sequenceDiagram
 
 **Try to retell steps 0–8 from memory before continuing.** Every deep dive from here on will say "recall step *n*…" and then show you what actually happened inside.
 
+---
+
+## 📦 Source repository
+
+This page is one part of an open guide pack. The whole serial — every diagram source, and a **runnable MCP server** you can point Claude Code at — lives in one repository:
+
+### → https://github.com/geekchow/mcp-explain
+
+| | |
+|---|---|
+| This page's source | [`mcp-guide/04-running-example.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/04-running-example.md) |
+| Runnable example server | [`mcp-guide/examples/orders-db-server`](https://github.com/geekchow/mcp-explain/tree/main/mcp-guide/examples/orders-db-server) |
+| Start of the serial | [`mcp-guide/00-overview.md`](https://github.com/geekchow/mcp-explain/blob/main/mcp-guide/00-overview.md) |
+
+Clone it and follow along:
+
+```bash
+git clone https://github.com/geekchow/mcp-explain.git
+cd mcp-explain/mcp-guide/examples/orders-db-server && npm install && node index.js
+```
+
+Corrections are welcome — open an issue if a protocol detail has drifted with a newer MCP revision.
+
 → Next: [05-deep-dives/01-host-claude-code.md](05-deep-dives/01-host-claude-code.md) · ↑ back to [03-concept-map.md](03-concept-map.md)
