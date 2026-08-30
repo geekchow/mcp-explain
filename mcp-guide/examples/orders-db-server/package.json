@@ -1,0 +1,16 @@
+{
+  "name": "orders-db-server",
+  "version": "1.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Runnable MCP server used by the mcp-guide running example: read-only access to a shop's orders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  }
+}

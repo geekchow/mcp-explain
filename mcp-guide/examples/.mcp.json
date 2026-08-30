@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "orders-db": {
+      "command": "node",
+      "args": ["./orders-db-server/index.js"]
+    }
+  }
+}
