@@ -1,0 +1,74 @@
+[
+  {
+    "part": 1,
+    "file": "01-00-overview.md",
+    "src": "mcp-guide-zh/00-overview.md",
+    "title": "MCP 模型上下文协议：一、总览与全景概念图"
+  },
+  {
+    "part": 2,
+    "file": "02-01-why.md",
+    "src": "mcp-guide-zh/01-why.md",
+    "title": "MCP 模型上下文协议：二、它到底解决了什么问题"
+  },
+  {
+    "part": 3,
+    "file": "03-02-what.md",
+    "src": "mcp-guide-zh/02-what.md",
+    "title": "MCP 模型上下文协议：三、定义、边界与生态位"
+  },
+  {
+    "part": 4,
+    "file": "04-03-concept-map.md",
+    "src": "mcp-guide-zh/03-concept-map.md",
+    "title": "MCP 模型上下文协议：四、概念地图 · 八个概念与五个组件"
+  },
+  {
+    "part": 5,
+    "file": "05-04-running-example.md",
+    "src": "mcp-guide-zh/04-running-example.md",
+    "title": "MCP 模型上下文协议：五、贯穿示例 · Claude Code 排查滞留订单"
+  },
+  {
+    "part": 6,
+    "file": "06-05-deep-dives__01-host-claude-code.md",
+    "src": "mcp-guide-zh/05-deep-dives/01-host-claude-code.md",
+    "title": "MCP 模型上下文协议：六、深入宿主 · Claude Code 如何管住 MCP"
+  },
+  {
+    "part": 7,
+    "file": "07-05-deep-dives__02-mcp-client.md",
+    "src": "mcp-guide-zh/05-deep-dives/02-mcp-client.md",
+    "title": "MCP 模型上下文协议：七、深入客户端 · 握手与能力协商"
+  },
+  {
+    "part": 8,
+    "file": "08-05-deep-dives__03-transport.md",
+    "src": "mcp-guide-zh/05-deep-dives/03-transport.md",
+    "title": "MCP 模型上下文协议：八、深入传输层 · stdio 与 Streamable HTTP"
+  },
+  {
+    "part": 9,
+    "file": "09-05-deep-dives__04-mcp-server.md",
+    "src": "mcp-guide-zh/05-deep-dives/04-mcp-server.md",
+    "title": "MCP 模型上下文协议：九、深入服务器 · 工具、资源与提示"
+  },
+  {
+    "part": 10,
+    "file": "10-05-deep-dives__05-auth-and-trust.md",
+    "src": "mcp-guide-zh/05-deep-dives/05-auth-and-trust.md",
+    "title": "MCP 模型上下文协议：十、授权与信任边界 · OAuth 2.1"
+  },
+  {
+    "part": 11,
+    "file": "11-06-walkthrough.md",
+    "src": "mcp-guide-zh/06-walkthrough.md",
+    "title": "MCP 模型上下文协议：十一、完整走查 · 端到端全深度重跑"
+  },
+  {
+    "part": 12,
+    "file": "12-07-next-steps.md",
+    "src": "mcp-guide-zh/07-next-steps.md",
+    "title": "MCP 模型上下文协议：十二、自测、练习与源码入口"
+  }
+]

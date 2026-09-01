@@ -1,0 +1,29 @@
+{
+  "column": "MCP | 模型上下文协议",
+  "csdnUser": "PhilZhou",
+  "indexArticleId": "164256020",
+  "indexUrl": "https://blog.csdn.net/PhilZhou/article/details/164256020",
+  "articles": [
+    {
+      "part": 0,
+      "src": ".csdn-tools/articles/00-index.md",
+      "articleId": "164256020",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164256020",
+      "title": "MCP 模型上下文协议：系列目录与导读"
+    },
+    {
+      "part": 1,
+      "src": ".csdn-tools/articles/01-00-overview.md",
+      "articleId": "164256065",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164256065",
+      "title": "MCP 模型上下文协议：一、总览与全景概念图"
+    },
+    {
+      "part": 2,
+      "src": ".csdn-tools/articles/02-01-why.md",
+      "articleId": "164256081",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164256081",
+      "title": "MCP 模型上下文协议：二、它到底解决了什么问题"
+    }
+  ]
+}
