@@ -39,15 +39,15 @@
 
 1. [MCP 模型上下文协议：一、总览与全景概念图](https://blog.csdn.net/PhilZhou/article/details/164256065)
 2. [MCP 模型上下文协议：二、它到底解决了什么问题](https://blog.csdn.net/PhilZhou/article/details/164256081)
-3. MCP 模型上下文协议：三、定义、边界与生态位
-4. MCP 模型上下文协议：四、概念地图 · 八个概念与五个组件
-5. MCP 模型上下文协议：五、贯穿示例 · Claude Code 排查滞留订单
-6. MCP 模型上下文协议：六、深入宿主 · Claude Code 如何管住 MCP
-7. MCP 模型上下文协议：七、深入客户端 · 握手与能力协商
-8. MCP 模型上下文协议：八、深入传输层 · stdio 与 Streamable HTTP
-9. MCP 模型上下文协议：九、深入服务器 · 工具、资源与提示
-10. MCP 模型上下文协议：十、授权与信任边界 · OAuth 2.1
-11. MCP 模型上下文协议：十一、完整走查 · 端到端全深度重跑
+3. [MCP 模型上下文协议：三、定义、边界与生态位](https://blog.csdn.net/PhilZhou/article/details/164304835)
+4. [MCP 模型上下文协议：四、概念地图 · 八个概念与五个组件](https://blog.csdn.net/PhilZhou/article/details/164304842)
+5. [MCP 模型上下文协议：五、贯穿示例 · Claude Code 排查滞留订单](https://blog.csdn.net/PhilZhou/article/details/164338703)
+6. [MCP 模型上下文协议：六、深入宿主 · Claude Code 如何管住 MCP](https://blog.csdn.net/PhilZhou/article/details/164338707)
+7. [MCP 模型上下文协议：七、深入客户端 · 握手与能力协商](https://blog.csdn.net/PhilZhou/article/details/164457226)
+8. [MCP 模型上下文协议：八、深入传输层 · stdio 与 Streamable HTTP](https://blog.csdn.net/PhilZhou/article/details/164457234)
+9. [MCP 模型上下文协议：九、深入服务器 · 工具、资源与提示](https://blog.csdn.net/PhilZhou/article/details/164631353)
+10. [MCP 模型上下文协议：十、授权与信任边界 · OAuth 2.1](https://blog.csdn.net/PhilZhou/article/details/164631379)
+11. [MCP 模型上下文协议：十一、完整走查 · 端到端全深度重跑](https://blog.csdn.net/PhilZhou/article/details/164631409)
 12. MCP 模型上下文协议：十二、自测、练习与源码入口
 
 ---

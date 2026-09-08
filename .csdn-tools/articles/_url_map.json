@@ -24,6 +24,69 @@
       "articleId": "164256081",
       "url": "https://blog.csdn.net/PhilZhou/article/details/164256081",
       "title": "MCP 模型上下文协议：二、它到底解决了什么问题"
+    },
+    {
+      "part": 3,
+      "src": ".csdn-tools/articles/03-02-what.md",
+      "articleId": "164304835",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164304835",
+      "title": "MCP 模型上下文协议：三、定义、边界与生态位"
+    },
+    {
+      "part": 4,
+      "src": ".csdn-tools/articles/04-03-concept-map.md",
+      "articleId": "164304842",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164304842",
+      "title": "MCP 模型上下文协议：四、概念地图 · 八个概念与五个组件"
+    },
+    {
+      "part": 5,
+      "src": ".csdn-tools/articles/05-04-running-example.md",
+      "articleId": "164338703",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164338703",
+      "title": "MCP 模型上下文协议：五、贯穿示例 · Claude Code 排查滞留订单"
+    },
+    {
+      "part": 6,
+      "src": ".csdn-tools/articles/06-05-deep-dives__01-host-claude-code.md",
+      "articleId": "164338707",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164338707",
+      "title": "MCP 模型上下文协议：六、深入宿主 · Claude Code 如何管住 MCP"
+    },
+    {
+      "part": 7,
+      "src": ".csdn-tools/articles/07-05-deep-dives__02-mcp-client.md",
+      "articleId": "164457226",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164457226",
+      "title": "MCP 模型上下文协议：七、深入客户端 · 握手与能力协商"
+    },
+    {
+      "part": 8,
+      "src": ".csdn-tools/articles/08-05-deep-dives__03-transport.md",
+      "articleId": "164457234",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164457234",
+      "title": "MCP 模型上下文协议：八、深入传输层 · stdio 与 Streamable HTTP"
+    },
+    {
+      "part": 9,
+      "src": ".csdn-tools/articles/09-05-deep-dives__04-mcp-server.md",
+      "articleId": "164631353",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164631353",
+      "title": "MCP 模型上下文协议：九、深入服务器 · 工具、资源与提示"
+    },
+    {
+      "part": 10,
+      "src": ".csdn-tools/articles/10-05-deep-dives__05-auth-and-trust.md",
+      "articleId": "164631379",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164631379",
+      "title": "MCP 模型上下文协议：十、授权与信任边界 · OAuth 2.1"
+    },
+    {
+      "part": 11,
+      "src": ".csdn-tools/articles/11-06-walkthrough.md",
+      "articleId": "164631409",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164631409",
+      "title": "MCP 模型上下文协议：十一、完整走查 · 端到端全深度重跑"
     }
   ]
 }
