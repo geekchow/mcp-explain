@@ -87,6 +87,13 @@
       "articleId": "164631409",
       "url": "https://blog.csdn.net/PhilZhou/article/details/164631409",
       "title": "MCP 模型上下文协议：十一、完整走查 · 端到端全深度重跑"
+    },
+    {
+      "part": 12,
+      "src": ".csdn-tools/articles/12-07-next-steps.md",
+      "articleId": "164631993",
+      "url": "https://blog.csdn.net/PhilZhou/article/details/164631993",
+      "title": "MCP 模型上下文协议：十二、自测、练习与源码入口"
     }
   ]
 }

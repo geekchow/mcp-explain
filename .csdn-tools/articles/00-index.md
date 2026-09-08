@@ -29,7 +29,7 @@
 | 深入 | 九、深入服务器 · 工具、资源与提示 | 两种错误的区别，以及服务器设计规则 |
 | 深入 | 十、授权与信任边界 · OAuth 2.1 | 混淆代理、令牌透传、真实攻击面 |
 | 走查 | 十一、完整走查 · 端到端全深度重跑 | 70 秒、两道闸门、一条审计记录 |
-| 收尾 | 十二、自测、练习与源码入口 | 八道自测题与动手清单 |
+| 收尾 | [十二、自测、练习与源码入口](https://blog.csdn.net/PhilZhou/article/details/164631993) | 八道自测题与动手清单 |
 
 ---
 
@@ -48,7 +48,7 @@
 9. [MCP 模型上下文协议：九、深入服务器 · 工具、资源与提示](https://blog.csdn.net/PhilZhou/article/details/164631353)
 10. [MCP 模型上下文协议：十、授权与信任边界 · OAuth 2.1](https://blog.csdn.net/PhilZhou/article/details/164631379)
 11. [MCP 模型上下文协议：十一、完整走查 · 端到端全深度重跑](https://blog.csdn.net/PhilZhou/article/details/164631409)
-12. MCP 模型上下文协议：十二、自测、练习与源码入口
+12. [MCP 模型上下文协议：十二、自测、练习与源码入口](https://blog.csdn.net/PhilZhou/article/details/164631993)
 
 ---
 
